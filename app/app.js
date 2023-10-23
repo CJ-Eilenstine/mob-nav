@@ -23,5 +23,6 @@ initURLListener();
 // This is pure Jquery example
 
 $(".hamburgler").on("click", () => {
-    $(".hammburglr").toggleClass("open");
+    $(".hamburgler").toggleClass("open");
+    console.log("Hello");
 });
